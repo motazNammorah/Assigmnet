@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Hello beautiful children,this is a simple test that will help your to get
+to know the basic organs of your body."
+
+            android:textSize="24sp"
+            android:textColor="@color/black"
+
+/>
+
+
+        <ImageView
+            android:id="@+id/body_part_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginVertical="90dp"
+            android:layout_weight="1"
+            android:src="@drawable/body"
+            tools:ignore="DuplicateIds" />
+
+        <ImageView
+
+            android:id="@+id/arms_part_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:src="@drawable/arms"
+            tools:ignore="DuplicateIds"
+
+            />
+
+        <TextView
+            android:id="@+id/arms_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is this body part?"
+            android:textColor="@color/black"/>
+
+
+        <RadioGroup
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/hand1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hand" />
+
+            <RadioButton
+                android:id="@+id/arm1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="arm" />
+
+            <RadioButton
+                android:id="@+id/leg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="leg" />
+
+
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/head_part_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:src="@drawable/head" />
+
+        <TextView
+            android:id="@+id/head_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is this body part?"
+            android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/leg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="leg" />
+
+            <RadioButton
+                android:id="@+id/arm2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="arm" />
+
+            <RadioButton
+                android:id="@+id/head2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="head" />
+
+
+
+        </RadioGroup>
+
+
+        <ImageView
+            android:id="@+id/hand_part_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:src="@drawable/hand" />
+
+        <TextView
+            android:id="@+id/hand_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is this body part?"
+            android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/hand3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hand" />
+
+            <RadioButton
+                android:id="@+id/arm3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="arm" />
+
+            <RadioButton
+                android:id="@+id/lag3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="leg" />
+
+
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/leg_part_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:src="@drawable/leg" />
+
+        <TextView
+            android:id="@+id/leg_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is this body part?"
+            android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/hand4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hand" />
+
+            <RadioButton
+                android:id="@+id/leg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="leg" />
+
+            <RadioButton
+                android:id="@+id/arm4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="arm" />
+
+
+        </RadioGroup>
+
+        <ImageView
+
+            android:id="@+id/face_part_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:src="@drawable/face"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/face_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is this body part?"
+            android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/hand5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hand" />
+
+            <RadioButton
+                android:id="@+id/face5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="face" />
+
+            <RadioButton
+                android:id="@+id/leg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="leg" />
+
+
+
+        </RadioGroup>
+
+        <ImageView
+
+            android:id="@+id/feet_part_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:src="@drawable/feet"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/feet_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is this body part?"
+            android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/hand6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hand" />
+
+            <RadioButton
+                android:id="@+id/arm6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="arm" />
+
+            <RadioButton
+                android:id="@+id/feet6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="feet"
+
+                />
+
+
+
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" GOOD LUCK :) "
+            android:gravity="center"
+            android:layout_marginVertical="10dp"
+            android:textColor="#0000FF"
+            android:textSize="24sp"
+            />
+/>
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="give me the result please :)"
+            android:layout_gravity="center"
+            android:onClick="checkResult"
+            android:layout_marginTop="8dp"
+
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/check"
+            android:textColor="#0000FF"
+            android:textSize="24sp"
+            android:visibility="gone"
+
+            />
+    </LinearLayout>
+</ScrollView>
